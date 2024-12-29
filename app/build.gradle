@@ -1,0 +1,78 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace 'com.example.mediaplayerapp'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.mediaplayerapp"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    buildFeatures {
+        compose true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.1"
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+
+dependencies {
+    // AndroidX Libraries
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "com.google.android.material:material:1.9.0"
+    implementation(libs.androidx.constraintlayout.v220)
+
+    // Jetpack Compose
+    implementation(libs.androidx.material.v151)
+    implementation(libs.androidx.ui.v151)
+    implementation(libs.androidx.ui.tooling.preview.v151)
+    implementation(libs.androidx.activity.compose.v172)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation 'com.google.firebase:firebase-analytics-ktx:21.4.0'
+
+
+    // WorkManager for background tasks
+    implementation "androidx.work:work-runtime-ktx:2.10.0" // Update to the latest version
+
+    // ExoPlayer for media playback
+    implementation(libs.exoplayer.v2181)
+    implementation libs.androidx.room.runtime
+    implementation "androidx.room:room-runtime:2.5.2"
+    kapt "androidx.room:room-compiler:2.5.2"
+
+
+    // Testing Libraries
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.ext.junit)
+    androidTestImplementation(libs.espresso.core)
+    annotationProcessor libs.androidx.room.compiler.v261
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+
+
+}

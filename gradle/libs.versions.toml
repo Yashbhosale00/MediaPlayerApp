@@ -1,0 +1,108 @@
+[versions]
+activityCompose = "1.7.2"
+activityComposeVersion = "1.6.0"
+activityVersion = "1.7.0"
+agp = "8.4.1"
+androidxActivityCompose = "1.7.2"
+androidxComposeMaterialMaterial = "1.5.1"
+androidxJunit = "1.1.5"
+androidxMaterial = "1.8.0"
+androidxMaterialVersion = "1.7.0"
+androidxRoomCompiler = "2.8.1"
+androidxUiToolingPreview = "1.5.1"
+appcompatVersion = "1.6.1"
+constraintlayoutVersion = "2.2.0"
+daggerCompiler = "2.40.5"
+espressoCoreVersion = "3.5.1"
+exoplayer = "2.19.1"
+exoplayerVersion = "2.17.1"
+firebaseInappmessagingVersion = "19.1.5"
+googleExoplayer = "2.18.1"
+googleMaterial = "1.9.0"
+gradle = "7.4.2"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinGradlePlugin = "1.9.0"
+kotlinGradlePluginVersion = "1.8.0"
+kotlinStdlib = "1.8.0"
+kotlinStdlibVersion = "2.0.21"
+lifecycleRuntimeKtx = "2.8.7"
+lifecycleRuntimeKtxVersion = "2.6.1"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+materialVersion = "1.7.6"
+playServicesBase = "21.1.0"
+retrofit = "2.9.0"
+roomCompiler = "2.4.2"
+roomCompilerVersion = "2.6.1"
+roomRuntime = "2.6.1"
+roomRuntimeVersion = "2.8.1"
+ui = "1.7.6"
+uiToolingPreview = "1.0.0-alpha1"
+uiToolingPreviewVersion = "1.0.0-beta01"
+uiVersion = "1.5.1"
+workRuntimeKtx = "2.10.0"
+firebaseInappmessaging = "21.0.1"
+workRuntimeKtxVersion = "2.8.0"
+foundationLayoutAndroid = "1.7.6"
+
+[libraries]
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+androidx-activity-compose-v160 = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
+androidx-activity-compose-v172 = { module = "androidx.activity:activity-compose", version.ref = "androidxActivityCompose" }
+androidx-activity-v170 = { module = "androidx.activity:activity", version.ref = "activityVersion" }
+androidx-appcompat-v161 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+androidx-constraintlayout-v220 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+androidx-espresso-core-v351 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+androidx-junit-v115 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-runtime-ktx-v261 = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
+androidx-material = { module = "androidx.compose.material:material", version.ref = "materialVersion" }
+androidx-material-material = { module = "androidx.material:material", version.ref = "androidxMaterial" }
+androidx-material-v151 = { module = "androidx.compose.material:material", version.ref = "androidxComposeMaterialMaterial" }
+androidx-material-v170 = { module = "androidx.material:material", version.ref = "androidxMaterialVersion" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
+androidx-room-compiler-v261 = { module = "androidx.room:room-compiler", version.ref = "roomCompilerVersion" }
+androidx-room-compiler-v281 = { module = "androidx.room:room-compiler", version.ref = "androidxRoomCompiler" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+androidx-room-runtime-v281 = { module = "androidx.room:room-runtime", version.ref = "roomRuntimeVersion" }
+androidx-ui = { module = "androidx.compose.ui:ui", version.ref = "ui" }
+androidx-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "ui" }
+androidx-ui-tooling-preview-v100beta01 = { module = "androidx.ui:ui-tooling-preview", version.ref = "uiToolingPreviewVersion" }
+androidx-ui-tooling-preview-v151 = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "androidxUiToolingPreview" }
+androidx-ui-v151 = { module = "androidx.compose.ui:ui", version.ref = "uiVersion" }
+androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "workRuntimeKtx" }
+androidx-work-runtime-ktx-v280 = { module = "androidx.work:work-runtime-ktx", version.ref = "workRuntimeKtxVersion" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "daggerCompiler" }
+exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayer" }
+exoplayer-v2171 = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayerVersion" }
+exoplayer-v2181 = { module = "com.google.android.exoplayer:exoplayer", version.ref = "googleExoplayer" }
+firebase-inappmessaging-v1915 = { module = "com.google.firebase:firebase-inappmessaging", version.ref = "firebaseInappmessagingVersion" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+kotlin-gradle-plugin-v180 = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePluginVersion" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlinGradlePlugin" }
+kotlin-stdlib-v180 = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlinStdlib" }
+kotlin-stdlib-v2021 = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlinStdlibVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-v190 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+play-services-base = { module = "com.google.android.gms:play-services-base", version.ref = "playServicesBase" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+firebase-inappmessaging = { group = "com.google.firebase", name = "firebase-inappmessaging", version.ref = "firebaseInappmessaging" }
+ui-tooling-preview = { module = "androidx.ui:ui-tooling-preview", version.ref = "uiToolingPreview" }
+androidx-foundation-layout-android = { group = "androidx.compose.foundation", name = "foundation-layout-android", version.ref = "foundationLayoutAndroid" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin = { id = "org.jetbrains.kotlin.android", version = "1.8.0" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version = "1.8.0" }
